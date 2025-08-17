@@ -121,7 +121,7 @@ if uploaded:
         else:
             st.info("No predictions detected.")
 
-    st.image(image, caption="Result", use_column_width=True)
+    st.image(image, caption="Result", use_container_width=True)
 
     with st.expander("Show summary"):
         st.write(f"Ground-truth polygons: {summary['gt']}")

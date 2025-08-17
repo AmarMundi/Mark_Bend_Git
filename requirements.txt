@@ -4,3 +4,4 @@ pillow
 opencv-python
 opencv-python-headless
 libgl1-mesa-glx
+sudo apt install libgl1-mesa-glx
